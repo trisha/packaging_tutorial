@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: example-package-trishie
+Version: 0.0.1
+Summary: A small example package
+Author-email: Trisha <author@example.com>
+Project-URL: Homepage, https://github.com/trisha/pypi_packaging_tutorial
+Project-URL: Issues, https://github.com/trisha/pypi_packaging_tutorial/issues
+Keywords: tutorial,trishie
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pytest
+
+# Example PyPi Package
+
+This is a simple example package from the [tutorial](https://packaging.python.org/en/latest/tutorials/packaging-projects/) from [pypi](https://pypi.org/). You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
+- More info on .toml: https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
