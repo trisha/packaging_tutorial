@@ -1,0 +1,22 @@
+[project]
+name = "example_package_trishie"
+version = "0.0.1"
+authors = [
+  { name="Trisha", email="author@example.com" },
+]
+description = "A small example package"
+keywords = ["tutorial", "trishie"]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "pytest",
+]
+
+[project.urls]
+Homepage = "https://github.com/trisha/pypi_packaging_tutorial"
+Issues = "https://github.com/trisha/pypi_packaging_tutorial/issues"
